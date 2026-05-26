@@ -64,7 +64,7 @@ class Estudiante extends Persona {
   }
 
   presentarse() {
-    return `${super.presentarse()} Estudio ${this.carrera}.`;
+    return `${super.presentarse()} Estudio  ${this.carrera}.`;
   }
 }
 
